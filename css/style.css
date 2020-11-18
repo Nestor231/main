@@ -107,7 +107,7 @@ i { font-size: 16px; }
 
 .avatar b { width: 36px; height: 20px; line-height: 20px; background-color: #ccc; color: #fff; position: absolute; top: 50%; right: -18px; margin-top: -10px; text-align: center; font-weight: normal; }
 .base { padding: 27px 0 0; position: relative; }
-.base p { color: #aaa; line-height: 20px; }
+.base p { color: #aaa; line-height: 10px; }
 .base p.desc { color: #ccc; }
 .base h2 { font-size: 32px; color: #999; font-weight: normal; padding: 5px 0; }
 .base span p { padding: 0 0 10px; }
@@ -117,7 +117,8 @@ i { font-size: 16px; }
 .information { width: 100%; }
 .info_content p { line-height: 22px; margin-bottom: 20px; overflow: hidden; }
 .info_content p em { margin: 0 5px; }
-.info_content ul li { list-style: none; overflow: hidden; position: relative; }
+.info_content ul li { list-style: none; overflow: hidden; position: relative;}
+.info_content ul li p.desc {margin-bottom: 5px;}
 .info_content ul li h3 { font-size: 12px; color: #333; line-height: 25px; }
 .info_content ul li:hover h3 { color: #109d59; }
 .info_content ul li h3 i { float: left; margin-right: 10px;  }
